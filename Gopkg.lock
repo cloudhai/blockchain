@@ -2,6 +2,12 @@
 
 
 [[projects]]
+  name = "gitee.com/johng/gkvdb"
+  packages = ["."]
+  revision = "5b7af6e0a2e40c2f14dd94a2bc3c7d4625be32e5"
+  version = "v1.81"
+
+[[projects]]
   name = "github.com/golang/protobuf"
   packages = ["proto"]
   revision = "b4deda0973fb4c70b50d226b1af49f3da59f5265"
@@ -10,6 +16,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "bec22e59627e3bdfe025f1ea4e1f36e9316d24858ef3b4b229335ade1634a6b7"
+  inputs-digest = "aa9595e48d8fff026af050eb217ba72db42e1a3c9fe6fb4c1c3a05f118facee3"
   solver-name = "gps-cdcl"
   solver-version = 1
